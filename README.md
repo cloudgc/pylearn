@@ -58,11 +58,13 @@ find(str, beg=0 end=len(string))
 index() lower() upper()
 
 `list语法`
+
 len(list) 元素个数, max(list) 列表元素最大值 min(list)列表元素最小值 list(seq)元组转换为列表
 list.append(obj)    list.count(obj) list.index(obj) list.insert(index, obj)
 list.pop(obj=list[-1]) list.remove(obj) list.reverse() 	list.sort([func])
 list.clear() 	list.copy()
 
 `tuple语法`
+
 len(tuple)计算元组元素个数。 max(tuple) 返回元组中元素最大值。
 min(tuple)返回元组中元素最小值。 	tuple(seq)将列表转换为元组。
