@@ -1,20 +1,20 @@
 **python 学习笔记**
 
 `1.	Python基本语法`
-	换行语法块
-	标识符 和关键字
-	注释 单引和双引号的区别
-	多行语句
-	模块导入
+* 换行语法块
+*	标识符 和关键字
+*	注释 单引和双引号的区别
+*	多行语句
+*	模块导入
 
 2.	数据类型
-	Number: 
+*	Number: 
 int  符号顺序  
 指数 (**) | 翻转,一元加减（~+-）| 乘除模，取整（* / % //） |加减 
 |左右移位（>><<）| 位运算|比较| is(not) | （not） in | and (not )
 Float bool complex 
 
-	String  list set tuple  dict 
+*	String  list set tuple  dict 
 有序集合可以 获取切片和索引,但是只有list 动态赋值
 
 
