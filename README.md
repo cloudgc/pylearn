@@ -68,3 +68,27 @@ list.clear() 	list.copy()
 
 len(tuple)计算元组元素个数。 max(tuple) 返回元组中元素最大值。
 min(tuple)返回元组中元素最小值。 	tuple(seq)将列表转换为元组。
+
+`dict语法`
+hash key 可以覆盖 没有异常
+len(dict)元素个数   str(dict) 输出字典
+
+dict.clear() 删除字典内所有元素  dict.copy() 字典的浅复制
+
+dict.fromkeys()创建一个新字典 dict.get(key, default=None)
+
+key in dict 键在字典dict里返回true，否则返回false 
+ 
+dict.items() 返回可遍历的(键, 值) 元组数组
+
+dict.keys()   dict.values()  dict.setdefault(key, default=None)
+
+dict.update(dict2)字典dict2的键/值对更新到dict里
+
+pop(key[,default])   删除字典给定键 key 所对应的值  	popitem()   随机返回并删除字典中的一对键和值
+ 
+
+**3.循环**
+和java 中的 循环基本保持一致 注意continue和pass 区别 
+
+yield 生成迭代器 并且可以通过 next() 函数调用
