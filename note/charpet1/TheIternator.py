@@ -32,6 +32,7 @@ def fibonacci(n):  # 生成器函数 - 斐波那契
         a, b = b, a + b
         counter += 1
 
+
 f = fibonacci(10)  # f 是一个迭代器，由生成器返回生成
 
 while True:
@@ -39,3 +40,4 @@ while True:
         print(next(f), end=" ")
     except StopIteration:
         sys.exit()
+

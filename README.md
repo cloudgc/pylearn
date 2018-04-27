@@ -66,16 +66,18 @@ list.clear() 	list.copy()
 
 `tuple语法`
 
-len(tuple)计算元组元素个数。 max(tuple) 返回元组中元素最大值。
+len(tuple)计算元组元素个数。 max(tuple) 返回元组中元素最大值
+
 min(tuple)返回元组中元素最小值。 	tuple(seq)将列表转换为元组。
 
 **`dict语法`**
+
 _hash key_ 可以覆盖 没有异常
 *len(dict)*元素个数   str(dict) 输出字典
 
 _dict.clear()_ 删除字典内所有元素  dict.copy() 字典的浅复制
 
-*_dict.fromkeys()_*创建一个新字典 dict.get(key, default=None)
+_dict.fromkeys()_创建一个新字典 dict.get(key, default=None)
 
 _key in dict_ 键在字典dict里返回true，否则返回false 
  
@@ -93,3 +95,16 @@ _pop(key[,default])_   删除字典给定键 key 所对应的值  	_popitem()_  
 和java 中的 循环基本保持一致 注意continue和pass 区别 
 
 _yield_ 生成迭代器 并且可以通过 next() 函数调用
+
+**4.函数调用**
+
+注意LEGB
+
+嵌套列表推导式
+
+**5.模块导入**
+
+from 包.模块(./..隐士导入) import 内容 查找路径是 当前根据 dir(sys) 寻找
+
+模块之间调用from . import  要在模块的高级包上调用 否则出错或者使用 绝对路径导入 from note.forimport import module1
+
