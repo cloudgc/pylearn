@@ -19,13 +19,11 @@ Float bool complex
 
 
 I.	数字：需要记住几个函数
-abs(x)【绝对值 整】	ceil(x)【上入整数】	exp(x)【e的x次幂]】	
-fabs(x) 【绝对值】	log(x) 【e的对数】
-log10(x) 【10的对数】	
-max(x1, x2,...)	min(x1, x2,...)	pow(x, y) 【x**y 】	
-round(x [,n]) 
-【x的四舍五入值】	sqrt(x)
-x的平方根		
+
+|abs(x)【绝对值 整】	|ceil(x)【上入整数】	|exp(x)【e的x次幂]】	|
+|fabs(x) 【绝对值】	|log(x) 【e的对数】|log10(x) 【10的对数】	|
+|max(x1, x2,...)|	min(x1, x2,...)	|pow(x, y) 【x**y 】	|
+|round(x [,n]) 【x的四舍五入值】|sqrt(x)x的平方根	|	
 			
 			
 choice(seq)
