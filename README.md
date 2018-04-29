@@ -108,3 +108,14 @@ from 包.模块(./..隐士导入) import 内容 查找路径是 当前根据 dir
 
 模块之间调用from . import  要在模块的高级包上调用 否则出错或者使用 绝对路径导入 from note.forimport import module1
 
+**6.file**
+
+|mode|r|r+|w|w+|a|a+|
+|----|--|--|--|--|--|--|
+|read        |+|+| |+| |+|
+|wirte       | |+|+|+|+|+|
+|create      | | |+|+|+|+|
+|overwrite   | | |+|+| | |
+|indexstart  |+|+|+|+| | |
+|indexend    | | | | |+|+|
+
