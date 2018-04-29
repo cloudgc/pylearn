@@ -135,7 +135,6 @@ os 系统api
 
 os.path.isfile()|os.path.exists()
 
-some error
-
-|Traceback|ZeroDivisionError|NameError|TypeError|KeyboardInterrupt
-
+|some error|||||
+|-|-|-|-|-|
+|Traceback|ZeroDivisionError|NameError|TypeError|KeyboardInterrupt|
