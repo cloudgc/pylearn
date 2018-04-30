@@ -138,3 +138,55 @@ os.path.isfile()|os.path.exists()
 |some error|||||
 |-|-|-|-|-|
 |Traceback|ZeroDivisionError|NameError|TypeError|KeyboardInterrupt|
+
+**面向对象**
+
+较java的oop简单 多继承 方法重写  没有接口  双下划线表示私有
+
+异常大父类是 
+
++-- SystemExit
+
++-- KeyboardInterrupt
+
++-- GeneratorExit
+
++-- Exception
+
+
+**标准库**
+
+|||
+|-|-|
+|日期|from datetime import date|
+|数学|import math|
+|http|urllib,urllib.request import urlopen, from urllib.parse import urlencode|
+
+**多线程**
+
+创建：_thread.start_new_thread 继承threading.Thread 实现run方法
+
+运行：start()  join() 
+
+锁： threading.Lock() acquire() realease() 
+
+队列 queue.put() queue.get()
+
+
+**xml,json解析*
+
+sax与dom4j 老生常谈了 
+
+json解析
+
+|json.dumps([ref])|json.loads([ref])|对象|
+|--|--|--|
+|json.dump([file])|json.load([file])|文件|
+
+
+
+**RDBMS**
+
+* mysql  ==> pymysql
+  
+  * error  DatabaseError
